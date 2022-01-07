@@ -1,4 +1,4 @@
-    {
+{
   "title": "World, Miller projection, low resolution",
   "version": "1.1.2",
   "type": "FeatureCollection",
@@ -57,38 +57,6 @@
     },
     {
       "type": "Feature",
-      "id": "UM",
-      "properties": {
-        "hc-group": "admin0",
-        "hc-middle-x": 0.57,
-        "hc-middle-y": 0.58,
-        "hc-key": "um",
-        "hc-a2": "UM",
-        "name": "United States Minor Outlying Islands",
-        "labelrank": "5",
-        "country-abbrev": "U.S. MOI",
-        "subregion": "Seven seas (open ocean)",
-        "region-wb": "East Asia & Pacific",
-        "iso-a3": "UMI",
-        "iso-a2": "UM",
-        "woe-id": "28289407",
-        "continent": "North America"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [-605, 6652],
-            [-606, 6652],
-            [-606, 6652],
-            [-606, 6652],
-            [-605, 6652]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
       "id": "US",
       "properties": {
         "hc-group": "admin0",
@@ -109,6 +77,23 @@
       "geometry": {
         "type": "MultiPolygon",
         "coordinates": [
+          [
+            [
+              [1870, 6950],
+              [1870, 6950],
+              [1870, 6950],
+              [1870, 6950]
+            ]
+          ],
+          [
+            [
+              [-605, 6652],
+              [-606, 6652],
+              [-606, 6652],
+              [-606, 6652],
+              [-605, 6652]
+            ]
+          ],
           [
             [
               [261, 8307],
@@ -906,6 +891,24 @@
         "coordinates": [
           [
             [
+              [7642, 6799],
+              [7641, 6799],
+              [7641, 6799],
+              [7642, 6799],
+              [7642, 6799]
+            ]
+          ],
+          [
+            [
+              [7699, 6929],
+              [7698, 6929],
+              [7698, 6929],
+              [7698, 6929],
+              [7699, 6929]
+            ]
+          ],
+          [
+            [
               [7752, 7185],
               [7768, 7185],
               [7797, 7233],
@@ -1090,69 +1093,6 @@
             [3998, 7762],
             [3997, 7692],
             [3984, 7629]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "SW",
-      "properties": {
-        "hc-group": "admin0",
-        "hc-middle-x": 0.86,
-        "hc-middle-y": 0.57,
-        "hc-key": "sw",
-        "hc-a2": "SW",
-        "name": "Serranilla Bank",
-        "labelrank": "5",
-        "country-abbrev": "S.B.",
-        "subregion": "Caribbean",
-        "region-wb": "Latin America & Caribbean",
-        "iso-a3": "-99",
-        "iso-a2": "SW",
-        "woe-id": "-99",
-        "continent": "North America"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [1870, 6950],
-            [1870, 6950],
-            [1870, 6950],
-            [1870, 6950]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "SH",
-      "properties": {
-        "hc-group": "admin0",
-        "hc-middle-x": 0.54,
-        "hc-middle-y": 0.51,
-        "hc-key": "sh",
-        "hc-a2": "SH",
-        "name": "Scarborough Reef",
-        "labelrank": "6",
-        "country-abbrev": "S.R.",
-        "subregion": "South-Eastern Asia",
-        "region-wb": "East Asia & Pacific",
-        "iso-a3": "-99",
-        "iso-a2": "SH",
-        "woe-id": "-99",
-        "continent": "Asia"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7699, 6929],
-            [7698, 6929],
-            [7698, 6929],
-            [7698, 6929],
-            [7699, 6929]
           ]
         ]
       }
@@ -1633,38 +1573,6 @@
             [6380, 6637],
             [6384, 6642],
             [6382, 6647]
-          ]
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "id": "SP",
-      "properties": {
-        "hc-group": "admin0",
-        "hc-middle-x": 0.5,
-        "hc-middle-y": 0.5,
-        "hc-key": "sp",
-        "hc-a2": "SP",
-        "name": "Spratly Islands",
-        "labelrank": "6",
-        "country-abbrev": "Spratly Is.",
-        "subregion": "South-Eastern Asia",
-        "region-wb": "East Asia & Pacific",
-        "iso-a3": "SPI",
-        "iso-a2": "SP",
-        "woe-id": "23424921",
-        "continent": "Asia"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [7642, 6799],
-            [7641, 6799],
-            [7641, 6799],
-            [7642, 6799],
-            [7642, 6799]
           ]
         ]
       }
@@ -9735,7 +9643,7 @@
         "hc-middle-y": 0.5,
         "hc-key": "bz",
         "hc-a2": "BZ",
-        "name": "Belize",
+        "name": "",
         "labelrank": "6",
         "country-abbrev": "Belize",
         "subregion": "Central America",
